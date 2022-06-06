@@ -26,7 +26,7 @@ body {
     font-family: 'Secular One', sans-serif;
     margin: 0;
     padding: 1rem;
-    border-radius:50px 50px 50px 50px
+    border-radius:50px 50px 50px 50px;
   }
   
   p {
@@ -37,5 +37,6 @@ body {
   img {
     float: right;
     height: 350px;
+    border-radius:50px 50px 50px 50px;
   }
   
