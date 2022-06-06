@@ -1,0 +1,40 @@
+body {
+    max-width: 960px;
+    margin: 10px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    color: #f852dc;
+  }
+  
+  a {
+    color: rgb(18, 82, 6);
+  }
+  
+  h1,
+  footer {
+    background-color: #c29009;
+    color: white;
+  }
+  
+  main {
+    height: 350px;
+    background-color: white;
+  }
+  
+  h1,
+  h2{
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  p {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  img {
+    float: right;
+    height: 350px;
+  }
+  
