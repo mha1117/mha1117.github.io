@@ -26,8 +26,8 @@ body {
   h2 {
     font-family: 'Secular One', sans-serif;
     margin: 0;
-    padding: 1rem;
-    
+    padding: 1rem; 
+
   }
   
   p {
@@ -39,5 +39,8 @@ body {
     float: right;
     height: 350px;
     border-radius:50px 50px 50px 50px;
+    border: 1px solid #43474f;
+    padding: 3px;
+    box-shadow: 8px 8px #a2abbd;
   }
   
