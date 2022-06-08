@@ -4,43 +4,43 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
     color: #522203fb;
-  }
+}
   
-  a {
-    color: rgb(18, 82, 6);
-  }
-  
-  h1,
-  footer {
-    background-color: #c29009;
-    color: white;
-    text-align: center;
-  }
-  
-  main {
+main {
     height: 350px;
     background-color: rgb(250, 219, 173);
-  }
-  
-  h1,
-  h2 {
-    font-family: 'Secular One', sans-serif;
-    margin: 0;
-    padding: 1rem; 
+}
 
-  }
-  
-  p {
-    margin: 0;
-    padding: 1rem;
-  }
-
-  img {
+img {
     float: right;
     height: 350px;
     border-radius:50px 50px 50px 50px;
     border: 1px solid #43474f;
     padding: 3px;
     box-shadow: 8px 8px #a2abbd;
-  }
+}
+h1,
+h2 {
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    padding: 1rem; 
+
+} 
+
+a {
+    color: rgb(18, 82, 6);
+}
+  
+h1,
+footer {
+    background-color: #c29009;
+    color: white;
+    text-align: center;
+}
+  
+p {
+    margin: 0;
+    padding: 1rem;
+}
+
   
