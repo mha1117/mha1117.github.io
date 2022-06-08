@@ -29,7 +29,7 @@ let days = [
   let year = today.getFullYear();
   let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
   
-  let fullDate = dayName + ", " + monthName + " " + today.getDate() + ", " + year + "," + time;
+  let fullDate = dayName + ", " + monthName + " " + today.getDate() + ", " + year + " " + time;
   
   document.getElementById("currentDateAndTime").textContent = fullDate;
   document.getElementById("currentYear").textContent = year;
