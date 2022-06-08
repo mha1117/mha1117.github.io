@@ -1,9 +1,9 @@
 body {
-    max-width: 960px;
+    max-width: 900px;
     margin: 10px auto;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
-    color: #ec134a;
+    color: #522203fb;
   }
   
   a {
@@ -30,6 +30,10 @@ body {
     
   }
   
+  p {
+    margin: 0;
+    padding: 1rem;
+  }
 
   img {
     float: right;
