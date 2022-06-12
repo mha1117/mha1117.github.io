@@ -67,11 +67,8 @@ h1,
 footer {
     background-color: #0f77b3;
     color: white;
-    margin: 0;
-    padding: 1rem; 
-    width: auto;
+    text-align: center;
 }
-
 
 @media only screen and (min-width: 600px){
     main {
