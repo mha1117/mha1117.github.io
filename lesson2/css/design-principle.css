@@ -19,6 +19,7 @@ main {
   border-color: #37018d;
   border-style: solid;
   margin: 0.5em;
+  background-color: aliceblue;
 }
 
 .design > img {
