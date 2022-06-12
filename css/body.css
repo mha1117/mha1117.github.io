@@ -1,14 +1,16 @@
 body {
     max-width: 1280px;
     margin: 10px auto;
-    font-family: 'Roboto Slab', serif;
     font-size: 30px;
     color: #1f1b18fb;
+    max-height: max-content;
+    font-family: 'Roboto Slab', serif;
 }
   
 main {
-    height: 350px;
+    font-family: 'Quicksand', sans-serif;
     background-color: rgb(220, 246, 250);
+    height: 350px;
     
 }
 
@@ -19,26 +21,25 @@ img {
     padding: 3px;
     
 }
+
 h1,
-h2,h3,h4 {
-    font-family: 'Quicksand', sans-serif;
+h2 { 
     margin: 0;
     padding: 1rem; 
-
 } 
 
-a {
-    color: rgb(19, 12, 12);
+a { 
+    color: rgb(216, 11, 11);
 }
   
-h1,
+header,
 footer {
     background-color: #0f77b3;
-    color: #ffffff;
+    color: white;
     text-align: center;
 }
   
-p {
+p { 
     margin: 0;
     padding: 1rem;
 }

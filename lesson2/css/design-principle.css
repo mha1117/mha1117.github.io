@@ -1,18 +1,7 @@
-body {
-    max-width: 1280px;
-    max-height: max-content;
-}
-
 main {
   display: grid;
   margin: auto;
   height:fit-content;
-}
-
-header {
-    background-color: #0f77b3;
-    color: #ffffff;
-    text-align: center;
 }
 .design {
   border-color: #37018d;
@@ -33,9 +22,6 @@ h3,
 h4 {
   padding-top: 0;
   padding-bottom: 0;
- 
-
-
 }
 
 .link > a{
@@ -48,7 +34,6 @@ h4 {
 p {
   font-size: 1.5rem;
 }
-
 
 
 
