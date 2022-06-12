@@ -20,6 +20,7 @@ main {
   border-style: solid;
   margin: 0.5em;
   background-color: aliceblue;
+  padding: 0;
 }
 
 .design > img {
@@ -50,13 +51,12 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   padding-top: 0;
   padding-bottom: 0;
-  text-align: center;
 }
 
 a{
   padding-top: 0;
   padding-bottom: 0;
-  color: rgb(51, 1, 1);
+  color: rgb(43, 1, 1);
 }
 
 p {
@@ -67,7 +67,6 @@ h1,
 footer {
     background-color: #0f77b3;
     color: white;
-    text-align: center;
     margin: 0;
     padding: 1rem; 
     width: auto;
