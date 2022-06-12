@@ -21,6 +21,7 @@ main {
   margin: 0.5em;
   background-color: aliceblue;
   padding: 0;
+  text-align: center;
 }
 
 .design > img {
@@ -65,9 +66,11 @@ p {
 
 h1,
 footer {
-    background-color: #0f77b3;
-    color: white;
-    text-align: center;
+  background-color: #0f77b3;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 1rem; 
 }
 
 @media only screen and (min-width: 600px){
