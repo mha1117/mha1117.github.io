@@ -29,10 +29,10 @@ h2 {
 } 
 
 a { 
-    color: rgb(216, 11, 11);
+    color: rgb(226, 2, 2);
 }
   
-header,
+h1,
 footer {
     background-color: #0f77b3;
     color: white;

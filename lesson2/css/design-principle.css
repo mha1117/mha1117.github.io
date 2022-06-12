@@ -1,8 +1,20 @@
+body {
+  max-width: 1280px;
+  margin: 10px auto;
+  font-size: 30px;
+  color: #1f1b18fb;
+  max-height: max-content;
+  font-family: 'Roboto Slab', serif;
+}
+
 main {
   display: grid;
   margin: auto;
   height:fit-content;
+  font-family: 'Quicksand', sans-serif;
+   
 }
+
 .design {
   border-color: #37018d;
   border-style: solid;
@@ -18,23 +30,47 @@ main {
     border: none;
     
 }
-h3,
-h4 {
-  padding-top: 0;
-  padding-bottom: 0;
+
+
+h2 {
+  background-color: aquamarine;
+  padding: 1rem;
+  margin: 0;
 }
 
-.link > a{
+h3 {
+  background-color: rgb(107, 238, 238);
+  padding: 1rem;
+  margin: 0;
+}
+
+#contrast, #alignment,
+#white {
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+a{
   padding-top: 0;
   padding-bottom: 0;
   color: rgb(216, 11, 11);
 }
 
-
 p {
   font-size: 1.5rem;
 }
 
+h1,
+footer {
+    background-color: #0f77b3;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1rem; 
+    width: auto;
+}
 
 
 @media only screen and (min-width: 600px){
