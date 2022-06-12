@@ -1,7 +1,7 @@
 body {
   max-width: 1280px;
   margin: 10px auto;
-  font-size: 30px;
+  font-size: 20px;
   color: #1f1b18fb;
   max-height: max-content;
   font-family: 'Roboto Slab', serif;
@@ -18,7 +18,7 @@ main {
 .design {
   border-color: #37018d;
   border-style: solid;
-  margin: 0.5em;
+  margin: 1em;
   background-color: aliceblue;
   padding: 0;
   text-align: center;
@@ -47,6 +47,7 @@ h3 {
   margin: 0;
 }
 
+
 #contrast, #alignment,
 #white {
   font-family: 'Quicksand', sans-serif;
@@ -64,7 +65,7 @@ p {
   font-size: 1.5rem;
 }
 
-h1,
+h1, 
 footer {
   background-color: #0f77b3;
   color: white;
