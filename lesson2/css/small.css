@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Stoke&display=swap');
 
 body {
-    background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?cs=srgb&dl=pexels-no-name-66997.jpg&fm=jpg");
+    background-image: url("../imgFile/weather.jpg");
     background-size: cover;
     font-size: larger;
     
@@ -55,7 +55,7 @@ nav ul li a:hover {
     margin-left: 80px;
     text-align: left;
     background: none;
-    color: #303030;
+    color: #FFFFFF;
 }
 
 #logo-text {
