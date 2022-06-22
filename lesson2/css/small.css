@@ -1,5 +1,132 @@
-@media (max-width: 50em) {
-    main {
-      grid-template-columns: 1fr;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Stoke&display=swap');
+
+body {
+    background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?cs=srgb&dl=pexels-no-name-66997.jpg&fm=jpg");
+    background-size: cover;
+    font-size: larger;
+    
+}
+
+nav {
+    background-color: #024430;
+    max-width: 1200px;
+    line-height: 3em;
+}
+
+.navigation {
+    padding-inline-start: 0px;
+}
+
+nav li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li {
+    text-align: center;
+    
+}
+
+nav ul li a {
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color:#086788;
+}  
+
+.responsive li{
+    display: block;
+}
+#logo-text, #logo-description {
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 80px;
+    text-align: left;
+    background: none;
+    color: #FFFFFF;
+}
+
+#logo-text {
+    font-size: 4vw;
+}
+
+
+h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 3px;
+    font-family: 'Stoke', serif;
+    
+}
+
+
+#logo img{
+    float: left;
+    display: block;
+    max-width: 150px;  
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(250, 250, 250, 0.5);
+    height: fit-content;
+    border: 2px solid rgb(53, 52, 52);
+}
+
+main p, a {
+    padding-left: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Colour scheme page css */
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .navigation {
+    background-color: #024430;
+    ;
+  }
+  .header {
+    background-color: #FFFFFF;
+  }
+  .main {
+    background-color: rgba(250, 250, 250, 0.5);
+  }
+  .accent{
+    background-color: rgb(53, 52, 52);
+  }
+  
+
+.tile {
+    border: 1px solid grey;
+    display: block;
+    width: calc(93% / 5);
+    float: left;
+    height: 100vh;
+    padding: 5px;
 }
