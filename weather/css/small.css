@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 #banner {
     display: none;
-    background-color: #04523a ;
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 0.1rem;
     text-align: center;
     box-shadow: 5px 5px 5px;
