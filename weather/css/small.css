@@ -58,6 +58,16 @@ nav ul li a:hover {
     color: #FFFFFF;
 }
 
+#banner {
+    display: none;
+    background-color: #04523a ;
+    padding: 0.1rem;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    border-bottom: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+}
+
 #logo-text {
     font-size: 4vw;
 }
