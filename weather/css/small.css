@@ -3,14 +3,15 @@
 body {
     background-image: url("../imgFile/weather.jpg");
     background-size: cover;
+    background-attachment: fixed;
     font-size: larger;
+    margin: 0;
     
 }
 
 nav {
     background-color: #024430;
-    width: 100%;
-    line-height: 3em;
+    max-width: 760px;
 }
 
 .navigation {
@@ -33,8 +34,7 @@ nav a {
 }
 
 nav ul li {
-    text-align: center;
-    
+    text-align: center;   
 }
 
 nav ul li a {
@@ -51,33 +51,27 @@ nav ul li a:hover {
 }
 #logo-text, #logo-description {
     padding: 0px;
-    margin-top: 40px;
-    margin-left: 80px;
-    text-align: left;
     background: none;
+    padding-left: .5em;
     color: #FFFFFF;
 }
 
 #banner {
     display: none;
-    background-color: rgb(255, 255, 255, 0.8);
-    padding: 0.1rem;
+    background-color: rgba(202, 223, 199, 0.6);
     text-align: center;
-    box-shadow: 5px 5px 5px;
-    border-bottom: 2px solid white;
+    border-radius: 50px 50px;
+    border: 1px solid#1d2527;
+    box-shadow: grey;
     font-family: 'Roboto', sans-serif;
 }
 
-#logo-text {
-    font-size: 4vw;
-}
 
 
 h1, h2, h3, h4 {
     margin: 0px;
     padding: 3px;
-    font-family: 'Stoke', serif;
-    
+    font-family: 'Stoke', serif;  
 }
 
 
@@ -90,25 +84,162 @@ h1, h2, h3, h4 {
 main {
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(250, 250, 250, 0.5);
-    height: fit-content;
-    border: 2px solid rgb(53, 52, 52);
+    background-color: rgba(255,255,255,.4);
+    height: 100%;
+    border: 1px solid grey;
+    padding-bottom: 1em;
 }
-
+main h2{
+    font-family: 'Stoke', serif;  
+    text-align: center;
+}
 main p, a {
     padding-left: 1em;
     font-family: 'Roboto', sans-serif;
 }
 
-main .section {
-    border: 1px dashed rgb(53, 52, 52);
-    margin: 0.4em 0;
+.hero {
+    background-image: url("../imgFile/preston.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height: 250px;
+}
+
+.weather-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: unset;
+}
+
+.weather-table span {
+    padding-left: 1em;
+}
+
+.weather-table h3 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    border-bottom: 1px solid #1d2527;
+}
+.weather-table .value span {
+    background: none;
+    color: inherit;
+}
+
+.weather-table .value {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.weather-table .attribute {
+    font-weight: bolder;
+    font-family: "Roboto", sans serif;
+}
+
+.weather-table span:nth-child(4n), span:nth-child(4n+1){
+    background-color: #024430;
+    color: white;
+}
+
+.weather-table span:nth-last-child(-n+2) {
+    border-bottom: 1px solid #024430;
+    margin-bottom: 1em;
+}
+
+
+.hero img {
+    grid-column: 1 / -1;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px;
+}
+
+.hero p {
+    grid-row: auto;
+}
+
+.fiveDay {
+    border: 1px solid #024430;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.forecast img {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+.forecast-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #024430;
+    text-align: center;
+    background-color: #024430;
+    font-family: "Roboto", sans-serif;
+}
+
+.forecast-label {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.article {
+    width:86%;
+    margin: 0 auto;
+    border: 1px solid #024430;
+    padding: 0 1em;
+}
+
+.article a {
+    display:block;
+    background: none;
+    padding-bottom: 1em;
+}
+
+.article img {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 1em;
+    padding: 1em 0;
+}
+
+.contact img {
+    max-width: 90%;
+    margin: 0 1em;
+}
+
+.contact-info img {
+    max-width: 25px;
 }
 
 footer {
+    display: block;
     background-color: #024430;
     color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+    padding: .2em 0;
 }
 
+
+footer p {
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.activeLink {
+    background-color: #024430;
+}
+
+.socials {
+    display: none;
+}
