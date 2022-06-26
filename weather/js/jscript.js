@@ -15,17 +15,8 @@ function toggleButton() {
 function displayBanner() {
     dayOfWeek = new Date().getDay();
     if (dayOfWeek == 6) {
-        document.querySelector('#banner').style.display = "block";
+        document.getElementById("banner").style.display = "block";
     }
     console.log(dayOfWeek);
 }
 
-function activeLink() {
-    let page = 0;
-    for (var i = 0; i < document.links.length; i++) {
-        if (document.links[i].href === document.URL) {
-            page = i;
-        }
-    }
-document.links[page].className = 'activeLink';
-}
