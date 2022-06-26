@@ -49,18 +49,9 @@ main {
     margin-top: 1em;
 }
 
+/*for hero section*/
 .hero-container {
     position: relative;
-}
-
-.weather-table {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(255,255,255, 0.6);
-    border: 1px solid #024430;
-    border-radius: 1em;
-    max-height: 90%;
 }
 
 .hero p {
@@ -74,26 +65,21 @@ main {
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+   position:relative;
 }
 
-.flex-col {
-    flex: 1 1 auto;
-    text-align: center;
-    border-right: 1px solid #024430;
+/*for weather summary*/
+.weather-summary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(244, 246, 248, 0.8);
+    border: 1px solid #024430;
+    border-radius: 1em;
+    max-height: 90%;
 }
 
-.flex-col:nth-last-child(1)  {
-    border-right: 0;
-}
-
-.flex-col img {
-    max-width: 60px;
-}
-
-
-
+/*for forecast table*/
 .fiveDay {
     display: flex;
     flex-flow: row wrap;
@@ -116,8 +102,21 @@ main {
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
+.flex-col {
+    flex: 1 1 auto;
+    text-align: center;
+    border-right: 1px solid #024430;
+}
 
+.flex-col:nth-last-child(1)  {
+    border-right: 0;
+}
 
+.flex-col img {
+    max-width: 70px;
+}
+
+/*for article section*/
 .article-inner {
     display: flex;
     padding-left: 1em;
@@ -131,6 +130,7 @@ main {
     max-width: 100%;
 }
 
+/*for contact section*/
 .contact {
     margin-top: 1em;
     display: grid;

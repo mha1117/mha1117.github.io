@@ -3,11 +3,11 @@ function calcWindChill(t, s){
 }
 
 function showWindChill(){
-    let speed = document.querySelector('#windspeed').innerHTML;
-    let temp  = document.querySelector('#high').innerHTML;
+    let speed = document.getElementById("windspeed").innerHTML;
+    let temp  = document.getElementById("high").innerHTML;
     if (temp >= 50 && speed >= 3){
-        document.querySelector('#windchill').innerHTML = Math.round(calcWindChill(temp, speed));
+        document.getElementById("windchill").innerHTML = Math.round(calcWindChill(temp, speed));
     } else {
-        document.querySelector('#windchill').innerHTML = "N/A";
+        document.querySelector('windchill').innerHTML = "N/A";
     }
 }
