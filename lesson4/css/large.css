@@ -24,7 +24,7 @@
     #logo {
         min-width: 180px;
     }
-
+/*for GALLERY PAGE*/
     .gallery-container {
         grid-template-columns: 1fr 1fr 1fr;
     }

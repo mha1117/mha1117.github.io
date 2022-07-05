@@ -45,9 +45,7 @@ main {
     width: 100%;
     margin: 0 auto;
 }
-.gallery-container {
-    grid-template-columns: 1fr 1fr;
-}
+
 /*for hero section*/
 .hero-container {
     position: relative;
@@ -165,5 +163,10 @@ main {
     grid-column: 3 / 4;
     grid-row: 4 / 4;
     display: flex;
+}
+
+/*for GALLERY PAGE*/
+.gallery-container {
+    grid-template-columns: 1fr 1fr;
 }
 }
