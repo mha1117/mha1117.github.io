@@ -265,3 +265,117 @@ figure:hover{ box-shadow: 0 0 50px;}
 img[data-src]{
     filter: blur(0.05em);
 }
+
+/*FORMS*/
+form fieldset {
+    margin: 2rem 2rem;
+    border: 3px solid #445ba9;
+    border-radius: 5px;
+    padding: 0.5rem 2%;
+}
+
+form legend {
+    color: #024430;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+   
+}
+
+.storm_severity_section {
+    border: 2px solid #999;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 1rem 0;
+    width: 90%;
+    max-width: 20rem;
+}
+
+form label.storm_details, label.output {
+    padding: 0;
+    margin: 0;
+}
+
+form label.your_details input, select, form label.your_details select, form label.storm_details input[type="date"], form label.additional_info textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #555;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgb(255, 253, 253 0.5);
+}
+
+#storm_region {
+    width: 100%;
+    max-width: 22rem;
+}
+
+form input[type="range"] {
+    display: block;
+    width: 90%;
+    max-width: 10rem;
+}
+
+form label.additional_info textarea {
+    height: 8rem;
+    max-height: 20rem;
+}
+
+form label.your_details input {
+    border-left: 2px solid rgba(0,0,0,0.1);
+}
+
+
+form p {
+    padding: 0;
+    margin: 0;
+}
+
+.additional_radio {
+    font-size: 1rem;
+}
+
+.additional_radio {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1); 
+    -webkit-transform: scale(1); 
+    transform: scale(1);
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+#fs_additional p {
+    padding: 0.2rem;
+    margin: 0;
+}
+
+#submitBtn {
+    font-size: 1rem;
+    padding: 1rem;
+    border-color: #999;
+    border-radius: 10px;
+    background-color: #024430;
+    color: white;
+    margin-left: 2rem;
+    object-position: 0rem;
+}
+
+.thanks {
+    text-align: center;
+}
