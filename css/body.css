@@ -5,12 +5,13 @@ body {
     color: #1f1b18fb;
     max-height: max-content;
     font-family: 'Roboto Slab', serif;
+   
 }
   
 main {
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(220, 246, 250);
-    height: 350px;
+    max-height: fit-content;
     
 }
 
