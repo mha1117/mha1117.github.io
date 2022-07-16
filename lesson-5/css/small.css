@@ -391,12 +391,11 @@ main.main-town {
 } 
  
 article.data-town {
-    width: 60%;
+    width: 70%;
     margin: 20px auto;
     box-shadow: 20px 20px 20px;
     border-radius: 5px;
     
-
 } 
 
 article.data-town img {
