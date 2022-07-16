@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Stoke&display=swap');
+
+body {
+    background-image: url("../imgFile/weather.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: larger;
+    margin: 0;
+    
+}
+
+nav {
+    background-color: #024430;
+    max-width: 760px;
+}
+
+.navigation {
+    padding-inline-start: 0px;
+}
+
+nav li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li {
+    text-align: center;   
+}
+
+nav ul li a {
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color:#024430;
+}  
+
+.responsive li{
+    display: block;
+}
+#logo-text, #logo-description {
+    padding: 0px;
+    background: none;
+    padding-left: 0.2em;
+    color: #FFFFFF;
+}
+
+#banner {
+    display: none;
+    background-color: rgba(171, 235, 162, 0.6);
+    text-align: center;
+    border: 2px solid#1d2527;
+    box-shadow: grey;
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
+}
+
+
+
+h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 3px;
+    font-family: 'Stoke', serif;  
+}
+
+
+#logo img{
+    float: left;
+    display: block;
+    max-width: 150px;  
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.4);
+    height: 100%;
+    border: 1px solid grey;
+    padding-bottom: 1em;
+}
+main h2{
+    font-family: 'Stoke', serif;  
+    text-align: center;
+}
+main p, a {
+    padding-left: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*for hero section*/
+.hero {
+    background-image: url("../imgFile/preston.jpeg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height: 250px;
+}
+.hero img {
+    grid-column: 1 / -1;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px;
+}
+
+.hero p {
+    grid-row: auto;
+}
+/*for weather summary*/
+.weather-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: unset;
+}
+
+.weather-summary span {
+    padding-left: 1em;
+}
+
+.weather-summary h3 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    border-bottom: 1px solid #1d2527;
+}
+.weather-summary .value span {
+    background: none;
+}
+
+.weather-summary .value {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.weather-summary .attribute {
+    font-weight: bolder;
+    font-family: "Roboto", sans serif;
+}
+
+/*for forecast table*/
+
+.fiveDay {
+    border: 1px solid #024430;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.forecast img {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+.forecast-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #024430;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #024430;
+    font-family: "Roboto", sans-serif;
+}
+
+.forecast-label {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.flex-col {
+    flex: 1 1 auto;
+    text-align: center;
+    border-right: 1px solid #024430;
+}
+
+/*for article section*/
+.article {
+    width:86%;
+    margin: 0 auto;
+    border: 1px solid #024430;
+    padding: 0 1em;
+}
+
+.article a {
+    display:block;
+    background: none;
+    padding-bottom: 1em;
+}
+
+.article img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+   
+}
+
+/*for contact section*/
+.contact {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 1em;
+    padding: 1em 0;
+}
+
+.contact img {
+    max-width: 90%;
+    margin: 0 1em;
+}
+
+.contact-info img {
+    max-width: 25px;
+}
+
+
+/*for footer*/
+footer {
+    display: block;
+    background-color: #024430;
+    color: white;
+    padding: .2em 0;
+}
+
+
+footer p {
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.activeLink {
+    background-color: #024430;
+}
+
+.socials {
+    display: none;
+}
+
+/*for GALLERY PAGE*/
+figure img {width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s; }
+figure {width: 250px; margin: 10px auto; padding: 0;}
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+figcaption {font-style: italic; margin-left: 5px; padding:2px ;}
+
+figure:hover{ box-shadow: 0 0 50px;}
+img[data-src]{
+    filter: blur(0.05em);
+}
+
+/*FORMS*/
+form fieldset {
+    margin: 2rem 2rem;
+    border: 3px solid #445ba9;
+    border-radius: 5px;
+    padding: 0.5rem 2%;
+}
+
+form legend {
+    color: #024430;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+   
+}
+
+.storm_severity_section {
+    border: 2px solid #999;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 1rem 0;
+    width: 90%;
+    max-width: 20rem;
+}
+
+form label.storm_details, label.output {
+    padding: 0;
+    margin: 0;
+}
+
+form label.your_details input, select, form label.your_details select, form label.storm_details input[type="date"], form label.additional_info textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #555;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgb(255, 253, 253 0.5);
+}
+
+#storm_region {
+    width: 100%;
+    max-width: 22rem;
+}
+
+form input[type="range"] {
+    display: block;
+    width: 90%;
+    max-width: 10rem;
+}
+
+form label.additional_info textarea {
+    height: 8rem;
+    max-height: 20rem;
+}
+
+form label.your_details input {
+    border-left: 2px solid rgba(0,0,0,0.1);
+}
+
+
+form p {
+    padding: 0;
+    margin: 0;
+}
+
+.additional_radio {
+    font-size: 1rem;
+}
+
+.additional_radio {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1); 
+    -webkit-transform: scale(1); 
+    transform: scale(1);
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+#fs_additional p {
+    padding: 0.2rem;
+    margin: 0;
+}
+
+#submitBtn {
+    font-size: 1rem;
+    padding: 1rem;
+    border-color: #999;
+    border-radius: 10px;
+    background-color: #024430;
+    color: white;
+    margin-left: 2rem;
+    object-position: 0rem;
+}
+
+.thanks {
+    text-align: center;
+}
+
+/*for Home Page*/
+
+h2.main-header {
+    font-size: 3rem;
+}
+main.main-town {
+    width: 100a; 
+    margin: 0 auto;
+} 
+ 
+article.data-town {
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: 20px 20px 20px;
+    border-radius: 5px;
+    
+
+} 
+
+article.data-town img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    border-radius: 0 0 10px 10px;
+    
+}
+article.data-town div {
+    text-align: center;
+    background-color: #c1e9c5;
+    border-radius: 10px 10px 0 0;
+}
+
+article.data-town div h2 {
+    font-size: 2rem;
+    margin: 0 ;
+    
+}
+
+article.data-town div h3 {
+    margin-top: 3px ;
+}
+
+article.data-town div p {
+    margin: 0;
+    padding-bottom: 5px ;
+}

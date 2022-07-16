@@ -1,0 +1,90 @@
+@media only screen and (min-width:1200px){
+    nav a {
+        font-size: 1.5em;
+    }
+
+    body {
+        background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?cs=srgb&dl=pexels-no-name-66997.jpg&fm=jpg");
+        background-position: bottom;
+        font-size: 1.5rem;
+    }
+
+    #logo-text {
+        font-size: 4rem;
+    }
+    
+    #logo-description {
+        font-size: 3rem;
+    }
+
+    nav li a {
+        font-size: 1em;
+    }
+
+    #logo {
+        min-width: 180px;
+    }
+/*for GALLERY PAGE*/
+    .gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+ 
+/*-------------HOME PAGE---------*/
+
+section.towns {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin: 30px 0
+    
+}
+
+
+article.data-town {
+    /* display: grid; */
+    display: block;
+    box-shadow: 20px 20px 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0;
+    }
+
+article.data-town div {
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    
+ }
+
+article.data-town img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+article.data-town div h2 {
+    font-size: 2rem;
+    margin: 0 ;
+    color: #7a0303;
+    
+}
+
+article.data-town div h3 {
+    margin-top: 2px ;
+    font-size: 1em;
+}
+
+article.data-town div p {
+    margin: 0;
+    padding-bottom: 5px ;
+    font-size: 1em;
+    
+}
+
+
+   
+
+
+}
