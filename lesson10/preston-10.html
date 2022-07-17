@@ -47,39 +47,39 @@
             </div>
             <div class="weather-summary">
                 <h3>Weather Summary</h3>
-                <span class="attribute">Currently:</span> <span class="value"> Sunny</span>
-                <span class="attribute">High:</span>      <span class="value">41°F</span>
+                <span class="attribute">Currently:</span> <span class="value"><span id="currently">  </span> </span>
+                <span class="attribute">High:</span>      <span class="value"><span id="high">  </span>F</span>
                 <span class="attribute">Wind Chill:</span><span class="value"><span id="windchill">  </span>°F</span>
-                <span class="attribute">Humidity:</span>  <span class="value">50%</span>
-                <span class="attribute">Wind Speed:</span><span class="value">5mph</span>
-                <script src="js/windChill.js"></script>
+                <span class="attribute">Humidity:</span>  <span class="value"><span id="humidity">  </span></span>
+                <span class="attribute">Wind Speed:</span><span class="value"><span id="windspeed">  </span>mph</span>
+                
 
             </div>
         </div><br><br>
         <div class="fiveDay section">
             <div class="flex-col">
                 <span class="forecast-head leftCorner">Monday</span>
-                <img src="../weather/imgFile/sun.png" alt="Sunshine">
+                <img src="../weather/imgFile/sun.png" alt="Sunshine" class="day">
                 <span class="forecast-label">Sunny</span>
             </div>
             <div class="flex-col">
                 <span class="forecast-head">Tuesday</span>
-                <img src="../weather/imgFile/sun.png" alt="Sunshine">
+                <img src="../weather/imgFile/sun.png" alt="Sunshine" class="day">
                 <span class="forecast-label">Sunny</span>
             </div>
             <div class="flex-col">
                 <span class="forecast-head">Wednesday</span>
-                <img src="../weather/imgFile/rain.png" alt="rain">
+                <img src="../weather/imgFile/rain.png" alt="rain" class="day">
                 <span class="forecast-label">Rainy</span>
             </div>
             <div class="flex-col">
                 <span class="forecast-head">Thursday</span>
-                <img src="../weather/imgFile/sun.png" alt="Sunshine">
+                <img src="../weather/imgFile/sun.png" alt="Sunshine" class="day">
                 <span class="forecast-label">Sunny</span>
             </div>
             <div class="flex-col">
                 <span class="forecast-head rightCorner">Friday</span>
-                <img src="../weather/imgFile/cloud.png" alt="cloud">
+                <img src="../weather/imgFile/cloud.png" alt="cloud" class="day">
                 <span class="forecast-label">Cloudy</span>
             </div>
         </div><br><br>
@@ -118,7 +118,7 @@
     <p> ©City Weather | Attribution | Maricel Oyardo </p>
     <p id="lastModified">Date last modified here</p>
     <script>lastModified();</script>
-    <script src = "js/APIweather.js"></script>
+    <script src="js/windChill.js"></script>
            
 </footer>
 
