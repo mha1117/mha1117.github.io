@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Site description">
+  <title>Fish Haven Town - WDD 230 Assignment Portal</title>
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <script src="js/javaScript.js"></script>
+  <script src="js/jscript.js"></script>
+  
+</head><br>
+
+<body>
+        
+    </div><br>
+  <header>
+      <div id="logo">
+          <img src="imgFile/sun_cloud.png" alt="Weather Logo">
+          <h1 id="logo-text">City Weather</h1>
+          <h2 id ="logo-description">Your weather update all day!</h2>
+      </div>
+  </header>
+  <nav>
+    <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
+        <li><a href="../lesson-6/index.html">Home</a></li>
+        <li><a href="../lesson-6/preston-10.html">Preston</a></li>
+        <li><a href="../lesson-6/sodaspring.html">Soda Springs</a></li>
+        <li><a href="../lesson-6/fishhaven.html">Fish Haven</a></li>
+        <li><a href="../lesson-6/stormcenter.html">Storm Center</a></li>
+        <li><a href="../lesson-6/gallery-7.html">Gallery</a></li>
+    </ul>
+    </nav>
+
+  <main>
+    
+    <h2>Fish Haven</h2>
+        <div class="hero-container">
+            <div class="heroFishHaven section">
+               
+            </div>
+            <div class="weather-summary">
+                <h3>Weather Summary</h3>
+                <span class="attribute">Currently:</span> <span class="value"><span id="currently">  </span> </span>
+                <span class="attribute">High:</span>      <span class="value"><span id="high">  </span>F</span>
+                <span class="attribute">Wind Chill:</span><span class="value"><span id="windchill">  </span>°F</span>
+                <span class="attribute">Humidity:</span>  <span class="value"><span id="humidity">  </span></span>
+                <span class="attribute">Wind Speed:</span><span class="value"><span id="windspeed">  </span>mph</span>
+                
+
+            </div>
+        </div><br><br>
+        <div class="fiveDay section">
+            <div class="flex-col">
+                <span class="forecast-head leftCorner">Monday</span>
+                <img src="../weather/imgFile/sun.png" alt="Sunshine" class="day">
+                <span class="forecast-label">Sunny</span>
+            </div>
+            <div class="flex-col">
+                <span class="forecast-head">Tuesday</span>
+                <img src="../weather/imgFile/sun.png" alt="Sunshine" class="day">
+                <span class="forecast-label">Sunny</span>
+            </div>
+            <div class="flex-col">
+                <span class="forecast-head">Wednesday</span>
+                <img src="../weather/imgFile/rain.png" alt="rain" class="day">
+                <span class="forecast-label">Rainy</span>
+            </div>
+            <div class="flex-col">
+                <span class="forecast-head">Thursday</span>
+                <img src="../weather/imgFile/sun.png" alt="Sunshine" class="day">
+                <span class="forecast-label">Sunny</span>
+            </div>
+            <div class="flex-col">
+                <span class="forecast-head rightCorner">Friday</span>
+                <img src="../weather/imgFile/cloud.png" alt="cloud" class="day">
+                <span class="forecast-label">Cloudy</span>
+            </div>
+        </div><br><br>
+        <div class="article section">
+            <h3>Bear Lake in Fish Haven</h3>
+            <h4> By Maricel Oyardo</h4>
+            <p>Credits to Original Author:</p>
+            <p>F. Ross Peterson</p>
+            <div class="article-inner">
+                
+                <div class="article-text">Bear Lake is located on the Idaho-Utah border, only twenty miles from Wyoming. It is thirty miles 
+                    long and eight miles wide, has depths of over two hundred feet, and is nearly 5,900 feet in elevation. The lake is 
+                    renowned for its beautiful turquoise color and its attractiveness to tourists.
+
+                    The lake was known to numerous Native American groups who came into the Bear Lake Valley during the summers, and from them it received its name. French-Canadian trappers working for the Hudson Bay Company followed the Bear River upstream and recorded views of the lake as early as 1818. American trappers held two successive rendezvous on the lake's south shore in the late 1820s. Included among those fur traders were Jedediah Smith and Jim Bridger.
+                     From the trappers, Bear Lake received a well-deserved reputation for harsh winters.
+                     <a href="https://www.uen.org/utah_history_encyclopedia/b/BEAR_LAKE.shtml" target="_blank"> continue to full article</a></div>
+                       <div class="article-img"><img src="../lesson-6/imgFile/bearlake.jpg" alt="Bear Lake"></div>
+            </div>
+           
+        </div><br>
+        <div class="event">
+            <h3 class="event-desc">Upcoming Events:</h3>
+            <p class="event-desc-a"></p>
+            <p class="event-desc-b"></p>
+            <p class="event-desc-c"></p>
+            
+        </div>
+    
+  </main>
+  <div class="contact section">
+    <h3>Contact Information</h3>
+    <div class="contact-info">
+        <p><img src="../lesson-6/imgFile/email.png" alt="Envelope icon"> maricel.jesoro@gmail.com</p>
+        <p><img src="../lesson-6/imgFile/call.png" alt="Phone icon"> +639 466664878</p>
+        <p><img src="../lesson-6/imgFile/location.png" alt="Location icon">Sabang Dos,Calauag,Quezon, Phils. 4018</p>
+    </div>
+    <div class="socials">
+        <a href="#"><img src="../lesson-6/imgFile/ig.png" alt="Instagram Logo"></a>
+        <a href="#"><img src="../lesson-6/imgFile/fb.png" alt="Facebook Logo"></a>
+        <a href="#"><img src="../lesson-6/imgFile/yt.png" alt="Youtube Logo"></a>
+    </div>
+    <img src="../lesson-6/imgFile/calauag.jpg" alt="Location Map">
+</div>
+  <footer>
+    <p> ©City Weather | Attribution | Maricel Oyardo </p>
+    <p id="lastModified">Date last modified here</p>
+    <script>lastModified();</script>
+    <script src="js/windChill.js"></script>
+    <script src="js/fishhaven.js"></script>
+           
+</footer>
+
+
+</body>
