@@ -11,12 +11,14 @@ function toggleButton() {
         document.querySelector('#menuButton a').innerHTML = "&#127746; Menu";
     }
 }
+/*for Banner*/
+let Day = new Date().getDay();
 
-function displayBanner() {
-    dayOfWeek = new Date().getDay();
-    if (dayOfWeek == 6) {
-        document.getElementById("banner").style.display = "block";
+function weekDay (Day) {
+    if (Day == 6){
+        document.querySelector('#banner').style.display = "block";
     }
-    console.log(dayOfWeek);
+    
 }
 
+weekDay(Day);
