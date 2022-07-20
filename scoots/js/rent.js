@@ -1,6 +1,6 @@
 // function RENTAL PAGE(){
     console.log('hello');
-    const requestURL = 'scoots/motors.json';
+    const requestURL = "../data/motors.json";
     
     fetch(requestURL)
         .then(function (response) {
