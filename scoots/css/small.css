@@ -208,22 +208,6 @@ main p, a {
    
 }
 
-/*for contact section*/
-.contact {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding-left: 1em;
-    padding: 1em 0;
-}
-
-.contact img {
-    max-width: 90%;
-    margin: 0 1em;
-}
-
-.contact-info img {
-    max-width: 25px;
-}
-
 
 /*for footer*/
 footer {
@@ -359,4 +343,22 @@ form label.your_details input {
     color: white;
     margin-left: 2rem;
     object-position: 0rem;
+}
+/*for TOUR PAGE*/
+figure img {width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s; }
+figure {width: 250px; margin: 10px auto; padding: 0;}
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+figcaption {font-style: italic; margin-left: 5px; padding:2px ;}
+
+figure:hover{ box-shadow: 0 0 50px;}
+img[data-src]{
+    filter: blur(0.05em);
 }
