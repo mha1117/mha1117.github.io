@@ -200,10 +200,11 @@ main p, a {
 }
 
 .article img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-    margin-bottom: 1em;
+    width: 400px; 
+    height: 200px; 
+    grid-column: 3 / 5;
+    grid-row: 4 / 4;
+    margin: 1em 2em;
    
 }
 
@@ -263,7 +264,7 @@ section {
   
     text-align: center;
     padding: 1rem;
-    background-color: #4ac56f;
+    background-color: #57f1f1;
 }
 
 .cards img {
@@ -348,8 +349,6 @@ form label.additional_info textarea {
 form label.your_details input {
     border-left: 2px solid rgba(0,0,0,0.1);
 }
-
-
 
 #submitBtn {
     font-size: 1rem;

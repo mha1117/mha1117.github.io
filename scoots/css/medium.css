@@ -67,7 +67,7 @@ main {
 
 /*for weather summary*/
 .weather-summary {
-    background-color: rgba(152, 233, 209, 0.8);
+    background-color: rgba(229, 235, 233, 0.8);
     border: 1px solid #024430;
     border-radius: 1em;
     max-height: 30%;
@@ -128,7 +128,11 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 .article-img {
-    max-width: 100%;
+    width: 400px; 
+  height: 200px; 
+  grid-column: 3 / 5;
+  grid-row: 4 / 4;
+  margin: 1em 2em;
 }
 
 /*for contact section*/
