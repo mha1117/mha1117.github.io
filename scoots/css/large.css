@@ -1,0 +1,25 @@
+@media only screen and (min-width:1100px){
+    nav a {
+        font-size: 1.5em;
+    }
+
+    body {
+        background-image: linear-gradient(rgb(25, 114, 248), rgb(91, 216, 102));
+        font-size: 1.5rem;
+    }
+
+    #logo-text {
+        font-size: 4rem;
+    }
+    
+
+    nav li a {
+        font-size: 1em;
+    }
+
+    #logo {
+        min-width: 180px;
+    }
+
+
+}

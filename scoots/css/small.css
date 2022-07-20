@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Stoke&display=swap');
+
+body {
+    background-image: linear-gradient(rgb(25, 114, 248), rgb(91, 216, 102));
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: larger;
+    margin: 0;
+    
+}
+
+nav {
+    background-color: #070ab1;
+    max-width: 760px;
+}
+
+.navigation {
+    padding-inline-start: 0px;
+}
+
+nav li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+nav ul li {
+    text-align: center;   
+}
+
+nav ul li a {
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color:#fd0404;
+}  
+
+.responsive li{
+    display: block;
+}
+#logo-text, #logo-description {
+    padding: 0px;
+    background: none;
+    padding-left: 0.2em;
+    color: #FFFFFF;
+}
+
+#banner {
+    display: none;
+    background-color: rgba(171, 235, 162, 0.6);
+    text-align: center;
+    border: 2px solid#1d2527;
+    box-shadow: grey;
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
+}
+
+
+
+h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 3px;
+    font-family: 'Stoke', serif;  
+}
+
+
+#logo img{
+    float: left;
+    display: block;
+    max-width: 150px;  
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+   
+    height: 100%;
+   
+    padding-bottom: 1em;
+}
+main h2{
+    font-family: 'Stoke', serif;  
+    text-align: center;
+}
+main p, a {
+    padding-left: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.action {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #f5e278;
+    margin: 1em 1em;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .action h3 {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .action button {
+    line-height: 2em;
+    width: 12em;
+    background-color: #f5930a;
+    font-size: 1.4em;
+    border: 1px solid #a43312;
+    border-radius: 50px 50px 50px 50px;
+  }
+/*for weather summary*/
+.weather-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather-summary span {
+    padding-left: 1em;
+}
+
+.weather-summary h3 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    border-bottom: 1px solid #1d2527;
+}
+.weather-summary .value span {
+    background: none;
+}
+
+.weather-summary .value {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.weather-summary .attribute {
+    font-weight: bolder;
+    font-family: "Roboto", sans serif;
+}
+
+/*for forecast table*/
+
+.fiveDay {
+    border: 1px solid #024430;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.forecast img {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+.forecast-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #010b3f;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #107bf5;
+    font-family: "Roboto", sans-serif;
+}
+
+.forecast-label {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.flex-col {
+    flex: 1 1 auto;
+    text-align: center;
+    border-right: 1px solid #010b3f;
+}
+
+/*for article section*/
+.article {
+    width:90%;
+    margin: 0 auto;
+    border: 1px solid #010b3f;
+    padding: 0 1em;
+}
+
+.article a {
+    display:block;
+    background: none;
+    padding-bottom: 1em;
+}
+
+.article img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+   
+}
+
+/*for contact section*/
+.contact {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 1em;
+    padding: 1em 0;
+}
+
+.contact img {
+    max-width: 90%;
+    margin: 0 1em;
+}
+
+.contact-info img {
+    max-width: 25px;
+}
+
+
+/*for footer*/
+footer {
+    display: block;
+    background-color: #107bf5;
+    color: white;
+    padding: .2em 0;
+}
+
+
+footer p {
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.activeLink {
+    background-color: #024430;
+}
+
+.socials {
+    display: none;
+}
+
+/*-------FOR RENTAL PAGE-----*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+section {
+    display: block;
+    border: 1px solid rgb(26, 25, 25);
+  
+    text-align: center;
+    padding: 1rem;
+    background-color: #4ac56f;
+}
+
+.cards img {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px #888;
+    border: 1px solid black;
+    padding: 5px;
+    background: white;
+}
+
+h2 {
+    text-shadow: 3px 3px 3px #888;
+}
+
+@media only screen and (min-width:600px){
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "chart": [
+      {
+        "rentType": "Honda Metro Scooter",
+        "maxperson": "1",
+        "photo": "metro.jpg",
+        "reservation": "Half Day(3 hrs): $20",
+        "walkin": "Half Day(3 hrs): $25"
+
+      }
+      
+    ]
+}

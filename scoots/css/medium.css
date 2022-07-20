@@ -1,0 +1,170 @@
+@media only screen and (min-width: 720px){
+    header {
+        display: flex;
+        align-content: left;
+        justify-content: left;
+        align-items: left;
+    } 
+   
+    #logo {
+        display: block;
+        min-width: 15%;
+        display: block;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 100%;
+        list-style: none;
+        justify-content: flex-start;
+    }
+
+    nav li a {
+        display: block;
+        padding: 10px;
+    }
+
+main { 
+    width: 80%;
+    margin-top: 1em;
+}
+
+/*for hero section*/
+.hero-container {
+    position: relative;
+}
+
+.hero p {
+    display:block;
+    grid-column: 1 /1;
+    grid-row: 1 / 1;
+    z-index: 1;
+    border: 1px solid gray;
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+.hero {
+   position:relative;
+}
+
+/*for weather summary*/
+.weather-summary {
+    background-color: rgba(152, 233, 209, 0.8);
+    border: 1px solid #024430;
+    border-radius: 1em;
+    max-height: 30%;
+}
+
+/*for forecast table*/
+.fiveDay {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #024430;
+    margin: 1em;
+}
+.forecast-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #010b3f;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #107bf5;
+    font-family: "Roboto", sans-serif;
+}
+
+.forecast-label {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.flex-col {
+    flex: 1 1 auto;
+    text-align: center;
+    border-right: 1px solid #010b3f;
+}
+
+.flex-col:nth-last-child(1)  {
+    border-right: 0;
+}
+
+.flex-col img {
+    max-width: 70px;
+}
+
+/*for article section*/
+.article {
+    width:100%;
+    margin: 0 auto;
+    border: 1px solid #010b3f;
+    padding: 0 1em;
+}
+.article-inner {
+    display: flex;
+    padding-left: 1em;
+}
+
+.article-text {
+    max-width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.article-img {
+    max-width: 100%;
+}
+
+/*for contact section*/
+.contact {
+    margin-top: 1em;
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr ;
+}
+
+.contact img {
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+}
+
+.contact h3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    line-height: .5rem;
+}
+
+.contact .contact-info, a{
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+
+.contact-info p {
+    margin: .5em;
+}
+
+.contact-info img {
+    max-width: 50px;
+}
+
+.socials {
+    grid-column: 3 / 4;
+    grid-row: 4 / 4;
+    display: flex;
+}
+}
