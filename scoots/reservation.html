@@ -27,7 +27,7 @@
         <li><a href="#" onclick="toggleMenu()">☰ Menu</a></li>
         <li><a href="../scoots/home.html">Home</a></li>
         <li><a href="../scoots/rental.html">Rentals</a></li>
-        <li><a href="">Reservations</a></li>
+        <li><a href="../scoots/reservation.html">Reservations</a></li>
         <li><a href="">Tours</a></li>
         <li><a href="">Contact</a></li>
        
@@ -35,7 +35,7 @@
     </nav>
 
   <main> 
-    <h2>Storm Center</h2>
+    <h2>Reservation Form</h2>
     <form method="get" action="thanks.html">
         <fieldset>
             <legend>Your Details</legend>
@@ -44,9 +44,9 @@
             <label class="your_details">Email<input type="email" name="email" placeholder="name@domain.com"></label>
             <label class="your_details">Phone Number*<input type="tel" name="phone" pattern="^([0-9]){9,}$" required=""></label>
             <label class="your_details">Zip Code*<input type="number" name="zip" required=""></label>
-            <label class="storm_details">Type of Rental:
-                <select name="storm_region" id="storm_region">
-                    <option value="" selected="" disabled="">Select Rental Type... ▾</option>
+            <label class="your_details">Type of Rental:
+                <select name="rental_type" id="rental_type">
+                    <option value="" selected="" disabled="">Select Rental Type............ ▾</option>
                     <option value="Honda Metro Scooter">Honda Metro Scooter</option>
                     <option value="Honda Dio Scooter">Honda Dio Scooter</option>
                     <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
@@ -56,6 +56,7 @@
                 </select>
             </label> 
         </fieldset>
+        <input type="submit" value="Submit Your Reservation" id="submitBtn">
     </form>
   </main>
     

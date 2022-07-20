@@ -5,14 +5,14 @@
         "maxperson": "1",
         "reservation": "Half Day(3 hrs): $20",
         "walkin": "Half Day(3 hrs): $25",
-        "photo": "scoots/images/metro.jpg"
+        "imgUrl": "https://mha1117.github.io/scoots/images/metro.jpg"
 
       },
 
       {
         "rentType": "Honda Dio Scooter",
         "maxperson": "2",
-        "photo": "scoots/images/dio.jpg",
+        "imgUrl": "https://mha1117.github.io/scoots/images/dio.jpg",
         "reservation": "Half Day(3 hrs): $30",
         "walkin": "Half Day(3 hrs): $40"
 
@@ -20,7 +20,7 @@
       {
         "rentType": "Honda PCX150 Scooter",
         "maxperson": "2",
-        "photo": "scoots/images/pcx.jpg",
+        "imgUrl": "https://mha1117.github.io/scoots/images/pcx.jpg",
         "reservation": "Half Day(3 hrs): $30",
         "walkin": "Half Day(3 hrs): $40"
 
