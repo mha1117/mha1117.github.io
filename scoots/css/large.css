@@ -20,6 +20,9 @@
     #logo {
         min-width: 180px;
     }
-
+/*for TOURS PAGE*/
+.places {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }

@@ -124,3 +124,7 @@ main {
     display: flex;
 }
 }
+/*for TOURS PAGE*/
+.places {
+    grid-template-columns: 1fr 1fr;
+}

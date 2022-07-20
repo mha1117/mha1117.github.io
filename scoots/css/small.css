@@ -346,19 +346,17 @@ form label.your_details input {
 }
 /*for TOUR PAGE*/
 figure img {width: 100%;
-    filter: blur(0em);
     transition: filter 0.5s; }
 figure {width: 250px; margin: 10px auto; padding: 0;}
-.gallery-container {
+.places {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     
 }
-figcaption {font-style: italic; margin-left: 5px; padding:2px ;}
+
+figcaption {font-style: bold; margin-left: 5px; padding:2px ;}
 
 figure:hover{ box-shadow: 0 0 50px;}
-img[data-src]{
-    filter: blur(0.05em);
-}
+
