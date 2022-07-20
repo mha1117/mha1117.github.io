@@ -35,9 +35,28 @@
     </nav>
 
   <main> 
-    <div class="cards">  
-      <script src="js/rent.js"></script>
-    </div>
+    <h2>Storm Center</h2>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Your Details</legend>
+            <label class="your_details">Date of Reservation<input type="date" name="reservedate"></label>
+            <label class="your_details">Full Name*<input type="text" name="fname" pattern="^([a-zA-Z ]){5,}$" required=""></label>
+            <label class="your_details">Email<input type="email" name="email" placeholder="name@domain.com"></label>
+            <label class="your_details">Phone Number*<input type="tel" name="phone" pattern="^([0-9]){9,}$" required=""></label>
+            <label class="your_details">Zip Code*<input type="number" name="zip" required=""></label>
+            <label class="storm_details">Type of Rental:
+                <select name="storm_region" id="storm_region">
+                    <option value="" selected="" disabled="">Select Rental Type... ▾</option>
+                    <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                    <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                    <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                    <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep Wrangler—4 door with a/c">Jeep Wrangler—4 door with a/c	</option>
+                    <option value="Jeep Wrangler—2 door">Jeep Wrangler—2 door</option>
+                </select>
+            </label> 
+        </fieldset>
+    </form>
   </main>
     
   <footer>
@@ -48,5 +67,5 @@
     <a href="https://byui.instructure.com/courses/194452/pages/w06-final-project-description-~scoots"><img src="../lesson-6/imgFile/yt.png" alt="Youtube Logo"></a>
     </div>
 </footer>
-
+<script src="js/rent.js"></script>
 </body>
