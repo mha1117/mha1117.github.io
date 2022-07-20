@@ -21,8 +21,32 @@
         "rentType": "Honda PCX150 Scooter",
         "maxperson": "2",
         "imgUrl": "https://mha1117.github.io/scoots/images/pcx.jpg",
-        "reservation": "Half Day(3 hrs): $30",
-        "walkin": "Half Day(3 hrs): $40"
+        "reservation": "Half Day(3 hrs): $0",
+        "walkin": "Half Day(3 hrs): $50"
+
+      },
+      {
+        "rentType": "Honda Pioneer ATV",
+        "maxperson": "4",
+        "imgUrl": "https://mha1117.github.io/scoots/images/pioner.jpg",
+        "reservation": "Half Day(3 hrs): $50",
+        "walkin": "Half Day(3 hrs): $70"
+
+      },
+      {
+        "rentType": "Jeep Wrangler—4 door with a/c",
+        "maxperson": "5",
+        "imgUrl": "https://mha1117.github.io/scoots/images/jeep.jpg",
+        "reservation": "Half Day(3 hrs): $70",
+        "walkin": "Half Day(3 hrs): $100"
+
+      },
+      {
+        "rentType": "Jeep Wrangler—2 door",
+        "maxperson": "4",
+        "imgUrl": "https://mha1117.github.io/scoots/images/wrangler.jpg",
+        "reservation": "Half Day(3 hrs): $60",
+        "walkin": "Half Day(3 hrs): $85"
 
       }
 
