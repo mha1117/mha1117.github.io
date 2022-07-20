@@ -3,9 +3,18 @@
       {
         "rentType": "Honda Metro Scooter",
         "maxperson": "1",
-        "photo": "metro.jpg",
+        "photo": "scoots/images/metro.jpg",
         "reservation": "Half Day(3 hrs): $20",
         "walkin": "Half Day(3 hrs): $25"
+
+      },
+
+      {
+        "rentType": "Honda Dio Scooter",
+        "maxperson": "2",
+        "photo": "scoots/images/metro.jpg",
+        "reservation": "Half Day(3 hrs): $30",
+        "walkin": "Half Day(3 hrs): $40"
 
       }
       

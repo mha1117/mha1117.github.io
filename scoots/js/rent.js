@@ -1,6 +1,6 @@
 // function RENTAL PAGE(){
     console.log('hello');
-    const requestURL = 'motors.json';
+    const requestURL = 'scoots/motors.json';
     
     fetch(requestURL)
         .then(function (response) {
@@ -19,10 +19,10 @@
                 let img = document.createElement('img');
 
                 h2.textContent = chart[i].rentType;
-                p1.innerHTML = chart[i].maxPerson;
+                p1.innerHTML = chart[i].maxperson;
                 p2.innerHTML = chart[i].reservation;
                 p3.innerHTML = chart[i].walkin;
-                img.setAttribute('src', chart[i].imageurl);
+                img.setAttribute('src', chart[i].photo);
 
                 card.appendChild(h2);
                 card.appendChild(p1);
